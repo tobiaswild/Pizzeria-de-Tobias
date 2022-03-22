@@ -1,0 +1,178 @@
+/* GRUNDGERÜST */
+
+* {
+    margin: 0 auto;
+    font-family: Cambria, sans-serif;
+    transition: 0.2s;
+
+}
+
+html {}
+
+
+/* GRUNDAUFBAU */
+
+.background {
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    height: inherit;
+    width: 960px;
+    max-width: 90%;
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    background-color: #E9E9E9;
+
+}
+
+.header {
+    height: auto;
+    width: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+}
+
+.navigation {
+    height: auto;
+    width: auto;
+
+}
+
+.content {
+    height: auto;
+    width: auto;
+
+}
+
+
+.footer {
+    height: auto;
+    width: auto;
+
+}
+
+/* TEXT */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 20px;
+
+}
+
+
+/* LINKS IN MENUE-LEISTE */
+
+.link {
+    color: black;
+    text-decoration: none;
+    padding-top: 4px;
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+.link:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.link:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+    border-top: red 4px solid;
+    border-radius: 3px;
+
+}
+
+.link:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+
+/* LINKS IN MENUE-LEISTE */
+
+.link1 {
+    color: #17202A;
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+.link1:link {
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.link1:visited {
+    color: #17202A;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.link1:hover {
+    color: #212F3D;
+    background-color: transparent;
+
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+.link1:active {
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+

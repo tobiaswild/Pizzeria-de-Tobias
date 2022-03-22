@@ -1,0 +1,119 @@
+#ind1 {
+    font-family: November, Arial;
+    text-align: center;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+#hw {
+    margin-top: -25px;
+    text-align: center;
+}
+
+#start {
+    margin-left: 430px;
+
+}
+
+#wa {
+    margin-bottom: -5px;
+
+
+}
+
+#sp {
+    text-decoration: underline;
+    font-family: fantasy;
+    font-size: 225%;
+
+}
+
+#sp:hover {
+    font-size: 230%;
+    text-decoration-color: red;
+
+}
+
+h5 {
+    margin-top: -18px;
+}
+
+#preis {
+    color: #282828;
+    font-size: 75%;
+
+}
+
+#mail {
+    height: 15px;
+    margin-left: 3px;
+}
+
+
+#pic {
+height: auto;
+width: auto;
+}
+
+/*DROP DOWN*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+}
+
+/*BESTELLEN*/
+
+fieldset{
+border: none;
+}
+
+form {
+	width: 25em;
+	margin-top: 2em;
+}
+
+input {
+	margin: 0 0 1.5em .5em;
+}
+
+label {
+	width: 15em;
+}
+
+button {
+	margin-top: 1em;
+}
+
+ul {
+list-style: none;
+}
+
+li{
+margin: 3px;
+}
+
+input {
+margin: 10px;}
